@@ -1,4 +1,4 @@
-<h1>Applicationde recommendations des offres d'emplois</h1>
+<h1>Application de recommendations des offres d'emplois</h1>
 <h2>Descriotion</h2>
 JobMatch+ est une application web innovante qui révolutionne la recherche d'emploi en utilisant des algorithmes avancés de machine learning pour fournir des recommandations personnalisées. Les utilisateurs peuvent s'inscrire facilement avec une option de reconnaissance faciale, se connecter à leur compte, gérer leurs informations, et recevoir des recommandations d'emploi adaptées à leur profil. Ils peuvent également marquer leurs offres préférées, utiliser une fonction de recherche avancée avec des filtres spécifiques, et postuler directement aux offres. Du côté administratif, un tableau de bord complet permet de visualiser les données, telles que le nombre d'offres et de candidatures, et de gérer les offres ainsi que les utilisateurs. JobMatch+ simplifie et optimise la recherche d'emploi, renforçant ainsi l'engagement et la satisfaction des utilisateurs.
 
