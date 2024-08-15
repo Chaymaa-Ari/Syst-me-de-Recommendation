@@ -1,0 +1,52 @@
+/* Conteneur principal centré avec une marge supérieure */
+.list-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style pour le conteneur de la table */
+  .table-container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Table pleine largeur avec bordures fusionnées */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* En-tête de la table avec fond de couleur spécifique */
+  .table thead tr {
+    background-color: #F6AE4D;
+  }
+  
+  /* Cellules de l'en-tête avec bordure, padding et alignement à gauche */
+  .table thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #F6AE4D;
+    text-align: center;
+  
+  }
+  
+  /* Cellules du corps de la table avec bordure et padding */
+  .table tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Alignement centré pour la cellule d'action */
+  .table tbody td.action-cell {
+    text-align: center;
+  }
+  
+  /* Icône de suppression rouge avec curseur pointer */
+  .trash-icon {
+    cursor: pointer;
+    color: red;
+  }

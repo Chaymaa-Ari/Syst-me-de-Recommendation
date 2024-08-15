@@ -1,0 +1,70 @@
+/* Style global pour le segment */
+.segment {
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form{
+    background-color: #f9f9f9;
+    margin-left: -20px;
+    margin-top: -21px;
+}
+/* Style pour les groupes de formulaires */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+   
+}
+
+.form-group .form-input {
+    flex: 1;
+    margin-right: 1em;
+}
+
+.form-group .form-input:last-child {
+    margin-right: 0;
+}
+
+/* Style pour les champs de formulaire */
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-input label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input input {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+.form-input textarea {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+    width:570px;
+}
+.form-input input:focus,
+.form-input textarea:focus {
+    border-color: #85b7d9;
+    outline: none;
+}
+
+/* Style spécifique pour le textarea */
+.form-input textarea {
+    resize: vertical;
+    min-height: 100px;
+}

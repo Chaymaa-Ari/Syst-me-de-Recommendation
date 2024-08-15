@@ -1,0 +1,10 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+  <h1>Recommended Jobs</h1>
+  <ul>
+    {% for job, score in recommended_jobs %}
+      <li>{{ job.Title }} - Score: {{ score }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

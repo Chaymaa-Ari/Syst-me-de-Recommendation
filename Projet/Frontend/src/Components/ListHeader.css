@@ -1,0 +1,19 @@
+/* Styles pour le bouton */
+.button6 {
+    background-color: #FFC451;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 800px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.button6:hover {
+    background-color: #ffb100;
+}

@@ -1,0 +1,49 @@
+/* styles.css */
+
+.segment {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.file-icon {
+    font-size: 2em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.file-icon2 {
+    font-size: 2em;
+    margin-left: -30px;
+    vertical-align: middle;
+}
+.resume-link {
+    font-size: 1em;
+    color: #4183c4;
+    text-decoration: none;
+    
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}
+
+.file-input-container {
+    margin-top: 20px;
+}
+
+#resume-input {
+    display: none;
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selected-file {
+    margin-left: 10px;
+    font-size: 1em;
+    color: #333;
+}

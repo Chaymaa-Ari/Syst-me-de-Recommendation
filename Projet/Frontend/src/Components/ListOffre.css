@@ -1,0 +1,52 @@
+/* Styles pour le conteneur */
+
+
+/* Styles pour le titre */
+h1, h2 {
+  color: #333;
+}
+
+
+
+/* Styles pour la table */
+.table2 {
+  width: 80%;
+  border-collapse: collapse;
+  margin-left: 100px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.table2 th, .table2 td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+ 
+}
+
+.table2 th {
+  background-color: #FFC451;
+  color:black;
+  font-weight: bold;
+}
+.table2 td {
+  background-color: #f9f9f9;
+  color:black;
+}
+/* Styles pour les icônes */
+.icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.icon-trash {
+  color: red;
+}
+
+.icon-edit {
+  color: blue;
+}

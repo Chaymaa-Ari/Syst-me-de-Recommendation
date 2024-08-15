@@ -1,0 +1,354 @@
+
+@function remy($value) {
+    @return ($value / 16px) * 1rem;
+  }
+  
+  a,
+  [type="submit"] {transition: all .25s ease-in;}
+  .signup__container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: #23242a;
+    transform: translateY(-50%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: remy(800px);
+    height: remy(480px);
+    border-radius: remy(3px);
+    box-shadow: 0px remy(3px) remy(7px) rgba(0,0,0,.25);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  .signup__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.76);
+  }
+ 
+  .container__child {
+    width: 700px;
+    height: 150%;
+    background-color: #643838;
+    margin-top: -60px;
+  }
+  .signup__thumbnail {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url('D:/IID2/S2/Projet tuto/Django/app1/public/image/job.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height:500px;
+    width:400px;
+  }
+  .thumbnail__logo,
+  .thumbnail__content,
+  .thumbnail__links {
+    position: relative;
+    z-index: 2;  
+  }
+  .thumbnail__logo {align-self: flex-start;}
+  .logo__shape {fill: #fff;}
+  .logo__text {
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 700;
+    vertical-align: bottom;
+  }
+  .thumbnail__content {align-self: center;}
+  h1,
+  h2 {
+    font-weight: 300;
+    color: rgba(255,255,255,1);
+  }
+  .heading--primary {font-size: 1.999rem;}
+  .heading--secondary {font-size: 1.414rem;}
+  .thumbnail__links {
+    align-self: flex-end;
+    width: 100%;
+  }
+  .thumbnail__links a {
+    font-size: 1rem;
+    color: #fff;
+    &:focus,
+    &:hover {color: rgba(255,255,255,.5);}
+  }
+  .signup__form {
+    padding: 2.5rem;
+    background:white;
+    height:500px;
+    
+  }
+  form{
+    margin-top: -40px;
+  }
+  .logo {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+   .logo a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   .logo a span {
+    color: #ffc451;
+  }
+  div h1 span{
+    color: #ffc451;
+    font-size: bold;
+  }
+  label {
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 40px;
+  }
+  
+  
+  .form-control {
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    margin-left: 40px;
+    width:270px;
+    
+    margin-bottom: 10px;
+    &:focus ;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+  {border-color: #111;}
+  }
+  [type="text"] {color: #111;}
+  [type="password"] {color: #111; width:90%;}
+  .btn--form {
+    padding: .5rem 2.5rem;
+    font-size: .95rem;
+    width: 150px;
+    height: 40px;
+    margin-left:60px;
+    text-transform: uppercase;
+    color: Black;
+    background: #ffc451;
+    float: center;
+    border-radius: remy(35px);
+   
+    -webkit-border-radius: remy(35px);
+    -moz-border-radius: remy(35px);
+    -ms-border-radius: remy(35px);
+    -o-border-radius: remy(35px);
+  }
+  .btn--form:hover {
+    background: #ba9e65;
+    color:black;
+  }
+  .signup__link {
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #999;
+    &:focus,
+    &:hover {color: darken(#999, 13%);}
+  }
+  
+  td{
+    width:420px;
+  
+  }
+  .inputbox{
+    position: relative;
+    width: 280px;
+    height:50px;
+  }
+  .input2{
+    position: relative;
+    width: 280px;
+    height:50px;
+    margin-top:-20px;
+  }
+  .inputbox input {
+    position: relative;
+    width: 90%;
+    
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    border-bottom: solid 1px #6e707c;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+   
+    
+  }
+  .input2 input{
+    position: relative;
+    width: 90%;
+    padding: 10px 10px 5px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    border-bottom: solid 1px #6e707c;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    margin-top: 25px;
+  }
+  .inputbox textarea {
+    position: relative;
+    width: 90%;
+    padding: 22px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    border-bottom: solid 1px #6e707c;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+   height:60px;
+    z-index: 10;
+    margin-bottom:0px;
+  }
+  
+  
+  .inputbox span ,.input2 span{
+    position: absolute;
+    left: 0;
+    margin-top:-10px;
+    padding: 32px 10px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  .input2 span{
+    position: absolute;
+    left: 0;
+    padding: 32px 10px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    margin-top:15px;
+  }
+  
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span,.input2 input:valid ~span,
+  .input2 input:focus ~span {
+    color: #ffc451;
+    font-weight: bold;
+    transform: translateX(-10px) translateY(-20px);
+    font-size: 0,55em;
+    -webkit-transform: translateX(-10px) translateY(-20px);
+    -moz-transform: translateX(-10px) translateY(-20px);
+    -ms-transform: translateX(-10px) translateY(-20px);
+    -o-transform: translateX(-10px) translateY(-20px);
+  }
+  .inputbox textarea:valid ~span,
+  .inputbox textarea:focus ~span {
+    color: #ffc451;
+    font-weight: bold;
+    transform: translateX(-10px) translateY(-10px);
+    font-size: 0,75em;
+    -webkit-transform: translateX(-10px) translateY(-10px);
+    -moz-transform: translateX(-10px) translateY(-10px);
+    -ms-transform: translateX(-10px) translateY(-10px);
+    -o-transform: translateX(-10px) translateY(-10px);
+  }
+  
+  .inputbox i ,.input2 i{
+    position: absolute;
+    left: 0;
+   
+    width: 90%;
+    height: 2px;
+    background: transparent;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    border-bottom: #ffc451;
+    z-index: 9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i ,.input2 input:valid ~i,
+  .input2 input:focus ~i{
+    height: 30px;
+  }
+  #labelSexe {
+    color: #ffc451;
+    margin-left: 10px;
+    margin-top: 32px;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1em;
+  }
+  
+  .sexe select{
+    margin-left:30px;
+  }
+  
+  /* Ajout de styles pour l'élément input de type file */
+  input[type="file"] {
+    color: black;
+    margin-top: -20px; /* Couleur du texte */
+  }
+  
+  /* Ajout de styles pour l'élément label à l'intérieur de la div .image */
+  .image label {
+    color: #ffc451;
+    margin-left: 10px;
+    margin-top: 19px;
+    font-weight: bold;
+  }
+  
